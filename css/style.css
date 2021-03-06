@@ -32,7 +32,7 @@ html, body {
     height: 99%;
 }
 
-#page {
+main {
     background-color: #f4f4f4;
     max-width: 850px;
     margin: auto;
@@ -73,7 +73,7 @@ hr {
     height: 1px;
 }
 
-#content {
+section {
     width: 90%;
     margin: auto;
 }
