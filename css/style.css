@@ -1,0 +1,137 @@
+@font-face {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('../fonts/comfortaa.woff2') format('woff2');
+}
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+html, body {
+    background-color: #eee;
+    height: 99%;
+}
+
+#page {
+    background-color: #f4f4f4;
+    max-width: 850px;
+    margin: auto;
+    border-radius: 2%;
+    box-shadow: -1px 0 70px -32px rgba(0,0,0,.15);
+    color: #502c3f;
+    font-family: Comfortaa;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+header {
+    
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+header p {
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    font-size: 3em;
+}
+
+.sub-title {
+    font-size: 1.5em;
+}
+
+hr {
+    background-image: linear-gradient(90deg,transparent,#2c3e50,transparent);
+    opacity: .1;
+    margin: 0;
+    padding-top: 4px;
+    border: 0;
+    height: 1px;
+}
+
+#content {
+    width: 90%;
+    margin: auto;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.tab {
+    max-width: 85%;
+    margin: auto;
+}
+
+.tab-head {
+    background-color: #502c3f;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: #ddd;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+
+.tab-body {
+    background-color: #e8e3ec;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.tab-content {
+    max-width: 90%;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+ul {
+    padding-left: 0.5em;
+}
+
+ul li {
+    list-style-position: outside;
+    margin-left: 1em;
+    padding-top: 10px;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.bold {
+    font-weight:200;
+}
+
+.padding-top {
+    padding-top: 10px;
+}
